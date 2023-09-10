@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(145, 207, 238);
+}
+.new{
+    text-align: center;
+}
+p{
+    color:rgb(36, 29, 233);
+    font-family: 'Lobster', cursive;
+    font-size: 30px;    
+    font-weight: bold;
+}
+.box{
+     display: flex;
+     text-align: center;
+     justify-content: center;  
+     margin-top: 100px; 
+}
+img{
+    width: 50%;    
+}
+.container{
+    width: 500px;
+}
+button{  
+    background-color: yellow; 
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+}
+div{
+    text-align: center;
+    justify-content: center; 
+}
+footer{
+    margin-top: 70px;
+    text-align: center;      
+}
+@media only screen and (max-width: 600px){
+    .box{
+        display: block;
+        margin-top: 30px;     
+   } 
+   img{
+    width: 45%;      
+   }
+   p{
+    font-size: 30px;    
+    font-weight: bolder;
+    }
+    .container{    
+        margin: auto; 
+        width: 400px;    
+    } 
+   footer{
+    margin-top: 50px;
+    text-align: center;   
+    font-size: 15px;  
+   }
+   button{  
+    background-color: yellow; 
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    }
+}
